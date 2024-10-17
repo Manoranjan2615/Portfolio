@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio - Responsive Navbar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div>
+        <nav id="navbar">
+            <div id="logo">
+                <img id="mano" src="Mano_logo.JPG" alt="#">
+            </div>
+            <div class="n_left">
+                <div id="menu_bar" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="left_menu" id="menu">
+                    <a href="#home-section">Home</a>
+                    <a href="#about-section">About</a>
+                    <a href="#skills-section">Skills</a>
+                    <a href="#projects-section">Projects</a>
+                    <a href="#education-section">Education</a>
+                </div>
+            </div>
+            <div class="n_right">
+                <a href="https://www.linkedin.com/in/manoranjan-m-500115268/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Manoranjan2615"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:mmanoranjan2615@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="tel:+919659447726"><i class="fa-solid fa-phone"></i></a>
+                <a href="#foot"><i class="fa-solid fa-location-dot"></i></a>
+            </div>
+        </nav>
+        <section id="home-section" class="home-section">
+            <div class="home-container">
+                <div class="home-image">
+                    <h1 id="heading" style="font-size: 2.5em;">Welcome to My Portfolio</h1>
+                    <img src="Mano.JPG" alt="Your Image" />
+                </div>
+                <div class="home-content">
+                    <p>Hi there! I’m Manoranjan, a Mechanical Engineering student with a knack for solving complex
+                        problems and a love for bringing ideas to life through code. From designing innovative
+                        mechanical systems to crafting seamless digital experiences, I’m on a mission to blend the
+                        worlds of engineering and technology. Let's build something extraordinary together!</p>
+                </div>
+            </div>
+        </section>
+        <div class="about-section" id="about-section">
+            <div class="about-header">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <p>Hello! I’m Manoranjan, a passionate Mechanical Engineering student with a keen interest in software
+                    development and web technologies. My journey in engineering has fueled my enthusiasm for solving
+                    complex problems and creating innovative solutions. With a focus on software development and data
+                    structures, I’m always eager to learn and grow in the field of technology.</p>
+            </div>
+        </div>
+        <div class="skills-section" id="skills-section">
+            <div class="skills-header">
+                <h2>Skills</h2>
+                <p>My technical expertise and proficiencies</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <i class="fa-brands fa-java"></i>
+                    <h3>Java</h3>
+                    <p>Experienced in developing robust applications with Java, leveraging object-oriented programming,
+                        concurrency management, and design patterns to build scalable and efficient software solutions.
+                    </p>
+                </div>
+               
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Skilled in HTML5, creating structured and semantic web content with modern best practices.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3"></i>
+                    <h3>CSS3</h3>
+                    <p>Expert in CSS3 for styling and layout, including Flexbox and Grid systems.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Proficient in JavaScript with experience in frameworks such as React and Node.js.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>ReactJs</h3>
+                    <p>Experienced in building dynamic user interfaces with React, utilizing hooks, state management,
+                        and component-based architecture.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>SQL</h3>
+                    <p>Proficient in SQL with experience in writing complex queries, optimizing database performance, and managing relational databases. Successfully implemented SQL-based solutions in my projects.</p>
+                </div>
+
+                
+            </div>
+        </div>
+        <section id="projects-section" class="projects-section">
+            <h2 id="h_project">My Projects</h2>
+            <div class="projects-container">
+                <div class="project-card" id="project-card-1">
+                    <img src="Rock_paper.jpg" alt="Automated Irrigation System" class="project-image">
+                    <div class="project-info">
+                        <h3>Rock Paper and Scissors Game</h3>
+                        <p>The Rock Paper Scissors Game project allows users to play against a computer or another player, featuring a visually appealing interface with engaging animations. It tracks scores and results using local storage, ensuring a seamless gaming experience with responsive design.
+                            <a href="Resume_Manoranjan (1).pdf" target="_blank" class="button">View Resume</a>
+                        </p>
+                    </div>
+                    <div class="project-title">
+                        <h3>Rock Paper and Scissors Game</h3>
+                    </div>
+
+                </div>
+                <div class="project-card" id="project-card-2">
+                    <img src="Railway_res.jpg" alt="Autonomous Speed Control System" class="project-image">
+                    <div class="project-info">
+                        <h3>Full-Stack Railway Reservation and Booking System</h3>
+                        <p>Developed a full-stack railway research system enabling users to search trains, book tickets, and view booking details. Implemented features like finding bookings by train number and username, with a responsive front-end and a robust back-end using Spring Boot and SQL for efficient data management.</p>
+                    </div>
+                    <div class="project-title">
+                        <h3>Full-Stack Railway Reservation and Booking System</h3>
+                    </div>
+                </div>
+                <div class="project-card" id="project-card-3">
+                    <img src="Myntra.jpg" alt="Myntra Website Clone" class="project-image">
+                    <div class="project-info">
+                        <h3>Myntra Website Clone</h3>
+                        <p>A Myntra Website Clone is a static replica built using only HTML and CSS, designed to mimic
+                            the layout and style of the original website. The project is fully responsive, adapting
+                            seamlessly to various screen sizes.</p>
+                    </div>
+                    <div class="project-title">
+                        <h3>Myntra Website Clone (Static)</h3>
+                    </div>
+                </div>
+                <div class="project-card" id="project-card-1">
+                    <img src="download.jpeg" alt="Automated Irrigation System" class="project-image">
+                    <div class="project-info">
+                        <h3>Automated Irrigation System</h3>
+                        <p>An Automated Irrigation System uses sensors to control water distribution based on soil
+                            moisture, optimizing water usage and enhancing plant growth. It minimizes manual effort
+                            while conserving water effectively.</p>
+                    </div>
+                    <div class="project-title">
+                        <h3>Myntra Website Clone (Static)</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="education-section" id="education-section">
+            <div class="education-header">
+                <h2>Education</h2>
+            </div>
+
+            <div class="education-item">
+                <h3>Bachelor of Mechanical Engineering</h3>
+                <h4>Dr Mahalingam College of Engineering and Technology</h4>
+                <p class="date">2022 - 2025</p>
+                <p>Focusing on software development, data structures, algorithms, and web technologies.</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Diploma in Automobile Engineering</h3>
+                <h4>Nachimuthu Polytechnic College</h4>
+                <p class="date">2019 - 2021</p>
+                <p>Specialized in vehicle dynamics, automotive design, and powertrain engineering. Completed a thesis on
+                    electric vehicle battery optimization and thermal management.</p>
+            </div>
+            <div class="education-item">
+                <h3>Schooling</h3>
+                <h4>Rajalakshmi Gengusamy Matriculation HSS School</h4>
+                <p class="date">2010 - 2019</p>
+            </div>
+        </div>
+        <div class="resume-section" id="resume-section">
+            <h2>My Resume</h2>
+            <p>Click the links below to view or download my resume:</p>
+            <a href="Resume_Manoranjan (1).pdf" target="_blank" class="resume-button">View Resume</a>
+            <a href="Resume_Manoranjan (1).pdf" download class="resume-button">Download Resume</a>
+        </div>
+        
+        <footer id="foot">
+            <div class="footer-content">
+                <div class="contact-details">
+                    <h3>Contact Me</h3>
+                    <p><i class="fa-solid fa-envelope"></i> Email: <a
+                            href="mailto:example@example.com">mmanoranjan2615@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+919659447726">+91 9659447726</a></p>
+                    <!-- <p><i class="fa-regular fa-file"></i>      Resume</p> -->
+                    <p><i class="fa-solid fa-location-dot"></i> Address: 32/1 Muthiampatti Dharapuram Tiruppur Tamilnadu
+                        India-642201</p>
+                </div>
+                <div class="social-media">
+                    <h3>Follow Me</h3>
+                    <a href="https://www.linkedin.com/in/manoranjan-m-500115268/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Manoranjan2615" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_mr._.mano__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/manoranjanm.m.1/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/Mr_Mano_"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 Your Name. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div><button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Top</button>
+    <script src="app.js"></script>
+</body>
+
+</html>
